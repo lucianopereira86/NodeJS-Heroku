@@ -95,19 +95,13 @@ In the web API root folder, create a _Procfile_, which is a Heroku file that spe
 web: node index.js
 ```
 
-Authenticate with Heroku by running this command and follow the instructions:
-
-```console
-heroku login
-```
-
 Create a _.git_ folder:
 
 ```console
 git init
 ```
 
-Create a _.gitignore_ file with this line:
+Create a _.gitignore_ file:
 
 ```
 /node_modules
@@ -116,6 +110,12 @@ Create a _.gitignore_ file with this line:
 Your project will look like this:
 
 ![node02](/docs/node02.JPG)
+
+Authenticate with Heroku by running this command and follow the instructions that will be displayed in the terminal:
+
+```console
+heroku login
+```
 
 Run the following command to create a project in Heroku. It will receive a random name but you can change it.
 
