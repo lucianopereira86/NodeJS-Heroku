@@ -16,7 +16,7 @@ Uploading a simple NodeJS web API to Heroku
 
 ### NodeJS
 
-Create a new folder in your PC to contain your NodeJS web API.
+Create a new folder in your PC to contain your NodeJS web API.  
 Create a _package.json_ file by running this command in a terminal:
 
 ```console
@@ -25,7 +25,7 @@ npm init
 
 Edit the file by adding the following dependencies:
 
-```json
+```js
 {
 	...
 	"dependencies": {
