@@ -16,7 +16,7 @@ Upload a simple NodeJS web API to Heroku without using Docker.
 
 ### NodeJS
 
-Create a new folder in your PC to contain your NodeJS web API.  
+Create a directory for your NodeJS web API.  
 By running this command in a terminal, create a _package.json_ file:
 
 ```console
