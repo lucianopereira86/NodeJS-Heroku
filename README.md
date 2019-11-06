@@ -131,7 +131,7 @@ git commit -m "First commit";
 git push heroku master;
 ```
 
-The console will shown the upload progress like this:
+The console will show the upload progress like this:
 
 ![heroku01](/docs/heroku01.JPG)
 
