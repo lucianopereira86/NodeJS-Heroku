@@ -27,12 +27,12 @@ Edit the file by adding the following dependencies:
 
 ```json
 {
-	// ...
+	...
 	"dependencies": {
 		"cors": "^2.8.5",
 		"express": "^4.16.4"
 	}
-	// ...
+	...
 }
 ```
 
