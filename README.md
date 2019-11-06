@@ -2,7 +2,7 @@
 
 # NodeJS-Heroku
 
-Uploading a simple NodeJS web API to Heroku
+Upload a simple NodeJS web API to Heroku without using Docker.
 
 ## Technologies
 
@@ -17,7 +17,7 @@ Uploading a simple NodeJS web API to Heroku
 ### NodeJS
 
 Create a new folder in your PC to contain your NodeJS web API.  
-Create a _package.json_ file by running this command in a terminal:
+By running this command in a terminal, create a _package.json_ file:
 
 ```console
 npm init
@@ -62,12 +62,6 @@ app.get('/', (req, res) => res.send('Working!!!'));
 app.listen(process.env.PORT || 3000, function() {
 	console.log('server running on port 3000', '');
 });
-```
-
-Create the _.env_ file with this line to set the application port:
-
-```
-PORT = 8081
 ```
 
 Run the web API with the following command:
@@ -131,10 +125,10 @@ heroku create
 
 Now, run the commands below to commit your web API to Heroku's new project:
 
-```
-git add *
-git commit -m "First commit"
-git push heroku master
+```console
+git add *;
+git commit -m "First commit";
+git push heroku master;
 ```
 
 The console will shown the upload progress like this:
