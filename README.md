@@ -95,13 +95,13 @@ In the web API root folder, create a _Procfile_, which is a Heroku file that spe
 web: node index.js
 ```
 
-Create a _.git_ folder:
+Create a _.git_ folder with this command:
 
 ```console
 git init
 ```
 
-Create a _.gitignore_ file:
+Create a _.gitignore_ manually containing this line:
 
 ```
 /node_modules
